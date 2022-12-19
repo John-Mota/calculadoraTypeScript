@@ -1,0 +1,35 @@
+@import 'btn.css';
+
+html body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+}
+
+.container {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.calcBody{
+    width: 300px;
+    height: 400px;
+    align-items: center;
+    background-color: rgb(70, 68, 68);
+    border: 1px solid black;
+
+}
+
+.tela {
+    background-color: aqua;
+    height: 17%;
+    margin: 5px;
+    
+}

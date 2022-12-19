@@ -1,0 +1,15 @@
+{
+
+    "compilerOptions": {
+        "target": "ES6",
+        "outDir": "dist/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "noEmitOnError": true
+    },
+    "include": [
+        "app/type/"
+    ]
+
+}
