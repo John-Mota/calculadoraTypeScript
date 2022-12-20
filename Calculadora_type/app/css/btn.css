@@ -1,42 +1,40 @@
-a {
-    text-decoration: none;
+@font-face {
+    font-family: calculator;
+    src: url(font/Calculator.ttf);
 }
 
-.btn { 
-    background-color: aqua;
-    height: 79%;
-    margin: 0px 5px;
-}
-
-.btnClick ul {
-    margin: 0;
-    padding-left: 0px;
-    justify-content: space-around;
-    display: flex;
-    list-style: none;
-    
-}
-
-.btnClick ul li {
-    display: inline-grid;
-    text-align:center;
+.btn {
     width: 60px;
-    height: 40px;
-    padding: 2px;
-    margin: 13px 0px;
+    height: 60px;
+    font-size: 25px;
+    margin: 3px;
+    cursor: pointer;
+    background-color: #1f1f1f;
+    color: #fff;
+    border: none;
 }
 
+.btn:hover {
+    background-color: black;
+}
 
+#resultado {
+    background-color: whitesmoke;
+    width: 254px;
+    height: 35px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: calculator;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
 
+#btn0 {
+    width: 128px;
+}
 
-
-
-
-
-.btnTotal button {
-    font-size: 30px;
-    margin-top: -10px;
-    margin-left: 5px;
-    height: 40px;
-    width: 278px;
+#mais {
+    height: 128px;
 }
